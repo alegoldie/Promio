@@ -1,0 +1,30 @@
+{
+    "name": "Promio",
+    "version": "1.0",
+    "description": "Find the best deals across the web",
+    "permissions": [
+      "activeTab", 
+      "declarativeContent", 
+      "storage",
+      "tabs",
+      "*://www.google.com/*",
+      "*://www.etsy.com/*"],  
+    "background": {
+      "scripts": ["background.js", "google.js"],
+      "persistent": false
+    },  
+    "page_action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "LOGO16.png",
+        "48": "LOGO48.png",
+        "128": "LOGO128.png"
+      }
+    },
+    "icons": {
+      "16": "LOGO16.png",
+      "48": "LOGO48.png",
+      "128": "LOGO128.png"
+    },
+    "manifest_version": 2
+  }
