@@ -10,7 +10,7 @@
       "*://www.google.com/*",
       "*://www.etsy.com/*"],  
     "background": {
-      "scripts": ["background.js", "google.js"],
+      "scripts": ["background.js"],
       "persistent": false
     },  
     "page_action": {
